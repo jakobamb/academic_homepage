@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lost in IKUM
-description: A virtual reality redirected walking prototype as an escape-room game
+description: A virtual reality redirected walking prototype in an escape-room game scenario
 img: assets/img/projects/lost_IKUM.png
 importance: 99
 category: work
