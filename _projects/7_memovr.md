@@ -20,10 +20,10 @@ In an initial meeting, we used a previously developed semi-structured interview 
     The game setup. Balls appear to the right of the player and need to be thrown at the memory cards to turn them over.
 </div>
 
-During the second meeting, we presented, tested and evaluated the prototype in the focus groups, to gather feedback for the next development cycle. We concluded the project by summarizing the lessons learned from the evaluation and the feedback for future product development, regarding game design, implementation details and hardware considerations.
+During a second meeting, we presented, tested and evaluated the prototype in the focus groups, to gather feedback for the next development cycle. We concluded the project by summarizing the lessons learned from the evaluation and the feedback for future product development, regarding game design, implementation details and hardware considerations.
 
-MemoVR was featured in the March 2019 recap where you can see our game in action played by residents (German):
+MemoVR was featured in the EXGAVINE project's March 2019 recap where you can see our game in action played by residents (German):
 
 <iframe style="display: block; margin: 30px auto;" width="560" height="315" src="https://www.youtube.com/embed/H_Drt5XF0a8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This project was carried out in my BSc programm within the HCI Bachelor Project module. For more details, the full project report is [available in German](assets/pdf/MemoVR___MCI_Projekt_WiSe_18_19.pdf). You can also download the [source code](https://git.informatik.uni-hamburg.de/hci/memovr/-/tree/master/) of the prototype for Unity3D.
+This project was carried out in my BSc program within the HCI Bachelor Project module. For more details, the full project report is [available in German](assets/pdf/MemoVR___MCI_Projekt_WiSe_18_19.pdf). You can also download the [source code](https://git.informatik.uni-hamburg.de/hci/memovr/-/tree/master/) of the prototype for Unity3D.
