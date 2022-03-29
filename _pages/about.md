@@ -18,6 +18,6 @@ Hi, thanks for visiting my website! I am a master's student in Computer Science 
 
 My current work is in explainable AI for Human-Robot Interaction, and in explaining multimodal deep learning models, using natural language explanations and visualization techniques. At the moment, I am writing my master's thesis, titled "Benchmarking Faithfulness: Towards Accurate Natural Language Explanations in Vision-Language Tasks".
 
-I am actively looking for PhD positions in the area of Human-Centered AI, XAI, interactive AI, multimodal Deep Learning or NLP and I am greatful for any hints or offers!
+Currently, I am looking for PhD positions in the area of Human-Centered AI, XAI, interactive AI, multimodal Deep Learning or NLP and I am greatful for any hints or offers!
 
 Have a look at my [projects page](/projects) for some random other work, such as a [citizen-science application to track jellyfish](/projects/1_jelly_spotter/).
