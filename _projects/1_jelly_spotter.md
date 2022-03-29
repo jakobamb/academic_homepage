@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-To support jellyfish research in the EU Horizon 2020 funded project [GoJelly](https://gojelly.eu/), I teamed up with a fellow student to implement a cross-plattform citizen science application to track jellyfish sightings submitted by volunteers around the baltic sea. The application was developed under supervision of Professor Dr. Jamileh Javid Pour from University of Southern Denmark (SDU), Department of Biology.
+To support jellyfish research in the EU Horizon 2020 funded project [GoJelly](https://gojelly.eu/), I teamed up with a fellow student to implement a cross-platform citizen science application to track jellyfish sightings submitted by volunteers around the baltic sea. The application was developed under the supervision of Professor Dr. Jamileh Javid Pour from the University of Southern Denmark (SDU), Department of Biology.
 
 [Jelly Spotter App on the App Store (Apple iOS)](https://apps.apple.com/de/app/gojelly/id1498675707?l=en&platform=iphone)
 
