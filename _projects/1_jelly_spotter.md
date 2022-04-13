@@ -38,7 +38,7 @@ To support jellyfish research in the EU Horizon 2020 funded project [GoJelly](ht
     Screenshot of the <a href="https://apps.apple.com/de/app/gojelly/id1498675707?l=en&platform=iphone">App Store page</a>
 </div>
 
-The jellyfish sightings are used by scientists to enable modeling and prediction of jellyfish bloom in the future. For example, this will enable swimmers in the baltic region to be warned about the stinging lion's mane jellyfish. Warnings and jellyfish forecasts are planned to be added to the Jelly Spotter App in the future.
+The jellyfish sightings are used by scientists to enable modelling and prediction of jellyfish bloom in the future. For example, this will enable swimmers in the baltic region to be warned about the stinging lion's mane jellyfish. Warnings and jellyfish forecasts are planned to be added to the Jelly Spotter App in the future.
 In the first season of launching the app, we have registered over 600 jellyfish sightings, most of which were submitted with a picture of the jellyfish.
 
 <div class="row justify-content-sm-center">
