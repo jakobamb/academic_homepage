@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://jakob.ambsdorf.com/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Jakob  Ambsdorf
 
 
-  | Page not found
+  | Methods of Multimodal Fusion for Stress Detection
 
 </title>
 <meta name="description" content="Welcome to my personal homepage!
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://jakob.ambsdorf.com/404.html">
+<link rel="canonical" href="https://jakob.ambsdorf.com/projects/3_bai/">
 
 
 <!-- Dark Mode -->
@@ -166,12 +166,69 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Methods of Multimodal Fusion for Stress Detection</h1>
+    <p class="post-description">We compare methods of multimodal fusion in neural networks on the Wearable Stress and Affect Detection (WESAD) dataset</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://jakob.ambsdorf.com/">here</a>.</p>
+    <p>This work was done as part of the seminar in the course “Bio-Inspired Artificial Intelligence” in my master studies.</p>
+
+<p>Using the WESAD Dataset for wearable stress and affect detection, we compared different methods of multi-modal fusion in neural networks. Results employing the
+<a href="https://arxiv.org/abs/1702.01992" target="_blank" rel="noopener noreferrer">Gated Multimodal Fusion Unit (GMU)</a>, linear sum and concatenation are presented and compared against AdaBoost as a baseline. In our experiment, all neural fusion
+methods achieved similar performance, while being substantially better than the AdaBoost baseline.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <picture>
+    
+    <source media="(max-width: 480px)" srcset="/assets/resized/wesad_fusion-480x262.png"></source>
+    
+    <source media="(max-width: 800px)" srcset="/assets/resized/wesad_fusion-800x436.png"></source>
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/projects/wesad_fusion.png" title="Network structure.">
+</picture>
+
+    </div>
+</div>
+<div class="caption">
+    Overview of the model architecture, using the GMU for multimodal fusion
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <picture>
+    
+    <source media="(max-width: 480px)" srcset="/assets/resized/bar_plot_with_error_bars-2-480x300.png"></source>
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/projects/bar_plot_with_error_bars-2.png" title="Mean accuracy and F1-score results using leave-one-subject-out cross
+validation, error bars are indicating standard deviation.">
+</picture>
+
+    </div>
+</div>
+<div class="caption">
+    Mean accuracy and F1-score results using leave-one-subject-out cross validation, error bars are indicating standard deviation.
+</div>
+
+<p>To find out if the GMU behaves differently when random noise is introduced, we carried out a second experiment. Noise was applied on one modality at inference time. Cosequently, the performance of all methods dropped, but, surprisingly, the models using the gated fusion module deteriorated most notably, resulting in below chance-level accuracy.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <picture>
+    
+    <source media="(max-width: 480px)" srcset="/assets/resized/bar_plot_noise-480x300.png"></source>
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/projects/bar_plot_noise.png" title="Mean accuracy and F1-score results using leave-one-subject-out cross
+validation, error bars are indicating standard deviation.">
+</picture>
+
+    </div>
+</div>
+<div class="caption">
+    Mean accuracy and F1-score results using leave-one-subject-out cross validation in the noise condition, error bars are indicating standard deviation.
+</div>
+
+<p>For more details, feel free to look at our <a href="/assets/pdf/Comparing_Methods_of_Multimodal_Fusion_for_Wearable_Stress_and_Affect_Detection.pdf">seminar report [PDF]</a>. The source code for our evaluation is available for download <a href="https://git.informatik.uni-hamburg.de/6ambsdor/mmfusion-wesad/-/tree/master/" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
   </article>
 
